@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Web Launcher | Lunal Graphics</title>
+        <title>Zeus | Lunal Graphics</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" href="logo_cool.png" />
     </head>
@@ -38,21 +38,22 @@
                 </div>
             </div>
         </div>
-        <iframe id="appembed" style="position: fixed; bottom: 0; left: 0; height: calc(100vh - 69px); width: calc(100vw - 345px); box-sizing: border-box;"></iframe>
-        <script>
-            var appsInfo = {
-                zeus: {
-                    embeduri: "https://yikuansun.github.io/lightning-experiment",
-                    title: "Zeus - Lightning FX"
-                },
-                spriteReplicator: {
-                    embeduri: "https://yikuansun.github.io/sprite-replicator",
-                    title: "Sprite Replicator"
-                }
-            };
-            var appID = location.hash.replace("#", "");
-            document.querySelector("#appembed").src = appsInfo[appID].embeduri;
-            document.querySelector("title").innerHTML = appsInfo[appID].title + " | Lunal Graphics";
-        </script>
+        <div class="shortbanner" style="background-image: url('https://repository-images.githubusercontent.com/455008898/d13c19d6-e439-4b1c-a020-3978d7678110');">
+            <div class="centeredbox">
+                SPRITE REPLICATOR
+                <br /><a href="weblauncher.html#spriteReplicator">
+                    <button class="learnmorebutton">Try it on the web</button>
+                </a>
+            </div>
+        </div>
+        <div class="infosection" style="background-color: #EEEEEE;">
+            Complex Patterns
+        </div>
+        <div class="infosection">
+            VFX
+        </div>
+        <div class="infosection" style="background-color: #EEEEEE;">
+            Advanced Blending
+        </div>
     </body>
 </html>
