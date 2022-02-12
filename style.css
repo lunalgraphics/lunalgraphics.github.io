@@ -83,6 +83,7 @@ body {
     color: white;
     font-size: 69px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
 }
 
 .centeredbox {
@@ -110,6 +111,7 @@ body {
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    background-attachment: fixed;
 }
 
 .infosection {
