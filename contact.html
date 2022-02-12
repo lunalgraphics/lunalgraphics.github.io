@@ -38,12 +38,24 @@
                 </div>
             </div>
         </div>
-        <div class="shortbanner" style="background-image: url('example-images/spritereplicator-example1-after.jpg');">
-            <div class="centeredbox">All Video Tutorials</div>
+        <div class="shortbanner" style="background-image: url(example-images/zeus-example3-before.jpg);">
+            <div class="centeredbox">Contact Us</div>
         </div>
         <div class="infosection" style="background-color: #EEEEEE;">
-            <iframe src="https://www.youtube.com/embed/VDto88C0Kkc" width="500" height="300" frameborder="0"></iframe>
-            <!--https://www.classynemesis.com/projects/ytembed/-->
+            <form id="contactform"
+                action="https://formspree.io/f/xrgjqgqq"
+                method="POST"
+            >
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label> <br /> <br />
+                <label>
+                    Your message: <br />
+                    <textarea name="message"></textarea>
+                </label> <br /> <br />
+                <button type="submit">Send</button>
+            </form>
         </div>
     </body>
 </html>

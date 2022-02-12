@@ -119,3 +119,13 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 32px;
 }
+
+#contactform {
+    font-size: 16px;
+}
+
+#contactform textarea {
+    resize: vertical;
+    width: 80%;
+    box-sizing: border-box;
+}
