@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Zeus | Lunal Graphics</title>
+        <title>Web Launcher | Lunal Graphics</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" href="logo_cool.png" />
     </head>
@@ -38,25 +38,17 @@
                 </div>
             </div>
         </div>
-        <div class="shortbanner" style="background-image: url('https://repository-images.githubusercontent.com/440242527/b855326a-56ee-4cf6-8a7d-8c00f89e7ab7'); background-position-y: -690px;">
-            <div class="centeredbox">
-                ZEUS
-                <br /><a href="weblauncher.html?appID=zeus">
-                    <button class="learnmorebutton">Try it on the web</button>
-                </a>
-            </div>
-        </div>
-        <div class="infosection" style="background-color: #EEEEEE;">
-            Unique Algorithm
-        </div>
-        <div class="infosection">
-            Powerful Glow
-        </div>
-        <div class="infosection" style="background-color: #EEEEEE;">
-            Transparent Background
-        </div>
-        <div class="infosection">
-            Not Just Lightning
-        </div>
+        <iframe id="appembed" style="position: fixed; bottom: 0; left: 0; height: calc(100vh - 69px); width: calc(100vw - 345px); box-sizing: border-box;"></iframe>
+        <script>
+            var appsInfo = {
+                zeus: {
+                    embeduri: "https://yikuansun.github.io/lightning-experiment",
+                    title: "Zeus - Lightning FX"
+                }
+            };
+            var appID = (new URLSearchParams(location.search)).get("appID");
+            document.querySelector("#appembed").src = appsInfo[appID].embeduri;
+            document.querySelector("title").innerHTML = appsInfo[appID].title + " | Lunal Graphics";
+        </script>
     </body>
 </html>
