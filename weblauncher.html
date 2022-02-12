@@ -44,9 +44,13 @@
                 zeus: {
                     embeduri: "https://yikuansun.github.io/lightning-experiment",
                     title: "Zeus - Lightning FX"
+                },
+                spriteReplicator: {
+                    embeduri: "https://yikuansun.github.io/sprite-replicator",
+                    title: "Sprite Replicator"
                 }
             };
-            var appID = (new URLSearchParams(location.search)).get("appID");
+            var appID = location.hash.replace("#", "");
             document.querySelector("#appembed").src = appsInfo[appID].embeduri;
             document.querySelector("title").innerHTML = appsInfo[appID].title + " | Lunal Graphics";
         </script>
