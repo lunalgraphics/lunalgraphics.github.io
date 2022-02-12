@@ -141,3 +141,8 @@ body {
     width: 80%;
     box-sizing: border-box;
 }
+
+#contactform input[type=email] {
+    width: 80%;
+    box-sizing: border-box;
+}
