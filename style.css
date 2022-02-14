@@ -167,3 +167,7 @@ body {
     content: '    ';
     white-space: pre;
 }
+
+.bottombar a:hover {
+    color: darkgrey;
+}
