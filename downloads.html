@@ -56,6 +56,15 @@
                 </tr>
             </table>
         </div>
+        <div id="begforsupport" style="position: fixed; background-color: #222222DD; width: 100vw; height: 100vh; top: 0; left: 0;">
+            <div class="centeredbox" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 36px; user-select: none;">
+                Please consider supporting us so we can keep making free apps
+                <br /><br />
+                <a href="https://www.patreon.com/bePatron?u=69481519" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+                <br />
+                <button class="learnmorebutton" onclick="document.getElementById('begforsupport').style.display = 'none';">I'm good</button>
+            </div>
+        </div>
         <div class="bottombar">
             <a href="about.html">About Us</a>
             <a href="sociallinks.html">Social</a>
@@ -120,6 +129,11 @@
                     }
                 }
             });
+
+            /*var showwall = function() { document.querySelector("#begforsupport").style.display = "block"; };
+            document.querySelector("#linuxdownload").addEventListener("click", showwall);
+            document.querySelector("#darwindownload").addEventListener("click", showwall);
+            document.querySelector("#windowsdownload").addEventListener("click", showwall);*/
         </script>
     </body>
 </html>
