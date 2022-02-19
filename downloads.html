@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lunal Graphics</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="logo_cool.png" />
+    </head>
+    <body>
+        <div class="topbar">
+            <a href="index.html"><img src="logo_cool.png" alt="Lunal Graphics" height="69px" draggable="false" class="logoimage" /></a>
+            <div class="dropdown">
+                <i>Products</i>
+                <div class="dropdown-content">
+                    <a href="about-progenflares.html">Progen Flares</a>
+                    <a href="about-zeus.html">Zeus</a>
+                    <a href="about-spritereplicator.html">Sprite Replicator</a>
+                    <a href="about-inferno.html">Inferno</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <i>Learn</i>
+                <div class="dropdown-content">
+                    <a href="videotutorials.html">All video tutorials</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <i>News</i>
+                <div class="dropdown-content">
+                    <a href="blog.html">Blog</a>
+                    <a href="sociallinks.html">Social</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <i>Support</i>
+                <div class="dropdown-content">
+                    <a href="contact.html">Contact</a>
+                    <a href="https://discord.gg/NqcVDCcqd4" target="_blank">Community</a>
+                </div>
+            </div>
+        </div>
+        <div class="frontpagesection">
+            <div class="centeredbox">
+                Downloads <br />
+                <a id="linuxdownload"><button class="learnmorebutton">Linux</button></a>
+                <a id="darwindownload"><button class="learnmorebutton">MacOS</button></a>
+                <a id="windowsdownload"><button class="learnmorebutton">Windows</button></a>
+            </div>
+        </div>
+        <div class="infosection">
+            <table id="historicalDownloads" style="font-size: 18px; width: 100vw; box-sizing: border-box;">
+                <tr>
+                    <td><b>Version</b></td>
+                    <td><b>Linux</b></td>
+                    <td><b>MacOS</b></td>
+                    <td><b>Windows</b></td>
+                </tr>
+            </table>
+        </div>
+        <div class="bottombar">
+            <a href="about.html">About Us</a>
+            <a href="sociallinks.html">Social</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <script>
+            var properties = {
+                zeus: {
+                    name: "Zeus",
+                    bannerimage: "https://repository-images.githubusercontent.com/440242527/b855326a-56ee-4cf6-8a7d-8c00f89e7ab7",
+                    repo: "yikuansun/lightning-experiment"
+                },
+                spriteReplicator: {
+                    name: "Sprite Replicator",
+                    bannerimage: "https://repository-images.githubusercontent.com/455008898/d13c19d6-e439-4b1c-a020-3978d7678110",
+                    repo: "yikuansun/sprite-replicator"
+                },
+                inferno: {
+                    name: "Inferno",
+                    bannerimage: "https://repository-images.githubusercontent.com/457153483/a973d1e2-ae45-4997-afe4-db48753a5b31",
+                    repo: "lunalgraphics/inferno"
+                }
+            }[location.hash.split("#")[1]];
+            document.querySelector("title").innerText = `${properties.name} Downloads | Lunal Graphics`;
+            document.querySelector(".frontpagesection").style.backgroundImage = `url("${properties.bannerimage}")`;
+            fetch(`https://api.github.com/repos/${properties.repo}/releases`).then(response => response.json()).then(function(releasesStream) {
+                for (var asset of releasesStream[0].assets) {
+                    switch (asset.name.split(".").pop()) {
+                        case "AppImage":
+                            document.querySelector("#linuxdownload").href = asset.browser_download_url;
+                            break;
+                        case "dmg":
+                            document.querySelector("#darwindownload").href = asset.browser_download_url;
+                            break;
+                        case "exe":
+                            document.querySelector("#windowsdownload").href = asset.browser_download_url;
+                            break;
+                    }
+                }
+                for (var release of releasesStream) {
+                    var row = document.createElement("tr");
+                    document.querySelector("#historicalDownloads").appendChild(row);
+                    row.innerHTML = `<td>${release.tag_name}</td>`;
+                    var linuxcol = document.createElement("td");
+                    var darwincol = document.createElement("td");
+                    var windowscol = document.createElement("td");
+                    row.appendChild(linuxcol);
+                    row.appendChild(darwincol);
+                    row.appendChild(windowscol);
+                    for (var asset of release.assets) {
+                        switch (asset.name.split(".").pop()) {
+                            case "AppImage":
+                                linuxcol.innerHTML = `<a href="${asset.browser_download_url}">Download</a>`;
+                                break;
+                            case "dmg":
+                                darwincol.innerHTML = `<a href="${asset.browser_download_url}">Download</a>`;
+                                break;
+                            case "exe":
+                                windowscol.innerHTML = `<a href="${asset.browser_download_url}">Download</a>`;
+                                break;
+                        }
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>
