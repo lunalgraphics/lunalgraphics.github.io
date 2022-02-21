@@ -134,18 +134,28 @@ body {
 }
 
 #contactform {
-    font-size: 16px;
+    font-size: 24px;
+    font-variant: small-caps;
 }
 
 #contactform textarea {
     resize: vertical;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #contactform input[type=email] {
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contactform input:focus, #contactform textarea:focus {
+    outline: none!important;
+    filter: drop-shadow(0 0 6.9px grey);
 }
 
 .bottombar {
