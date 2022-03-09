@@ -102,6 +102,7 @@ body {
     padding: 10px 20px;
     font-variant: small-caps;
     transition: 1s;
+    border-radius: 5px;
 }
 
 .learnmorebutton:hover {
