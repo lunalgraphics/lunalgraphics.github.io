@@ -84,6 +84,7 @@ body {
     font-size: 69px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-attachment: fixed;
+    font-variant: small-caps;
 }
 
 .centeredbox {
