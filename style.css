@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    background-color: black;
 }
 
 .topbar {
@@ -95,6 +96,10 @@ body {
     text-align: center;
 }
 
+a {
+    color: aqua;
+}
+
 .learnmorebutton {
     font-size: 18px;
     background-color: white;
@@ -133,6 +138,8 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 32px;
     box-sizing: border-box;
+    color: #CCCCCC!important;
+    background-color: #222222!important;
 }
 
 #contactform {
@@ -146,6 +153,9 @@ body {
     box-sizing: border-box;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: grey;
+    border: 1px solid grey;
 }
 
 #contactform input[type=email] {
@@ -153,11 +163,15 @@ body {
     box-sizing: border-box;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: grey;
+    border: 1px solid grey;
 }
 
 #contactform input:focus, #contactform textarea:focus {
     outline: none!important;
-    filter: drop-shadow(0 0 6.9px grey);
+    color: white;
+    border: 1px solid white;
 }
 
 .bottombar {
