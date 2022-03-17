@@ -4,6 +4,10 @@ body {
     background-color: black;
 }
 
+::selection {
+    background-color: hsla(210, 100%, 50%, 0.2);
+}
+
 .topbar {
     position: fixed;
     top: 0;
