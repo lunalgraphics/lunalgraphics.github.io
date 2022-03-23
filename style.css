@@ -215,6 +215,7 @@ a:hover {
     height: 34px;
     padding: 8px;
     border-radius: 16px;
+    transition: filter 0.69s;
 }
 
 .socialicons img:hover {
