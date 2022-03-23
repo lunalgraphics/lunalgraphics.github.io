@@ -159,7 +159,7 @@ a:hover {
     box-sizing: border-box;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-color: #111111;
     color: grey;
     border: 1px solid grey;
 }
@@ -169,7 +169,7 @@ a:hover {
     box-sizing: border-box;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-color: #111111;
     color: grey;
     border: 1px solid grey;
 }
@@ -178,6 +178,7 @@ a:hover {
     outline: none!important;
     color: white;
     border: 1px solid white;
+    background-color: #080808;
 }
 
 .bottombar {
