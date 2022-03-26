@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 body {
     margin: 0;
@@ -33,7 +33,7 @@ body {
     vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Saira Extra Condensed", sans-serif;
+    font-family: "Rajdhani", sans-serif;
     font-weight: bolder;
     height: 69px;
     display: inline-block;
@@ -54,7 +54,7 @@ body {
     position: absolute;
     background-color: black;
     z-index: 999;
-    min-width: 135px;
+    min-width: 169px;
     top: 69px;
 }
 
@@ -63,7 +63,7 @@ body {
     color: white;
     display: block;
     padding: 10px 10px;
-    font-family: "Saira Extra Condensed", sans-serif;
+    font-family: "Rajdhani", sans-serif;
     font-weight: bolder;
     text-align: left;
     text-decoration: none;
@@ -193,7 +193,7 @@ a:hover {
 
 .bottombar a {
     color: white;
-    font-family: "Saira Extra Condensed", sans-serif;
+    font-family: "Rajdhani", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
