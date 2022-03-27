@@ -115,7 +115,7 @@ a:hover {
     font-variant: small-caps;
     transition: 1s;
     border-radius: 3.6px;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .learnmorebutton:hover {
