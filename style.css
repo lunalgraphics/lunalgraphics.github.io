@@ -230,3 +230,28 @@ hr {
     opacity: 0.1;
     width: 88%;
 }
+
+.videoCard {
+    width: 345px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.42);
+    transition: box-shadow 0.3s;
+    background-color: #222222;
+    text-decoration: none;
+    user-select: none;
+}
+
+.videoCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.42);
+}
+
+.videoCard img {
+    width: 345px;
+    height: 180px;
+}
+
+.videoCard div {
+    padding: 10px;
+    font-size: 18px;
+    color: darkgrey;
+}
