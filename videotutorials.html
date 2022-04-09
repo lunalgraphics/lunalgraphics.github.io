@@ -42,9 +42,30 @@
             <div class="centeredbox">All Video Tutorials</div>
         </div>
         <div class="infosection">
-            <iframe src="https://www.youtube.com/embed/VDto88C0Kkc" width="500" height="300" frameborder="0" allowfullscreen></iframe>
-            <!--https://www.classynemesis.com/projects/ytembed/-->
+            <div id="videoGallery"></div>
         </div>
+        <script>
+            var vids = [
+                {
+                    "url": "https://www.youtube.com/watch?v=VDto88C0Kkc",
+                    "name": "Introduction to Sprite Replicator"
+                }
+            ];
+            var gall = document.querySelector("#videoGallery");
+            var update = function(filter="") {
+                for (var datum of vids) {
+                    if (datum.name.includes(filter)) {
+                        var a = document.createElement("a");
+                        a.href = datum.url;
+                        a.innerText = datum.name;
+                        a.style.fontSize = "21px";
+                        a.target = "_blank";
+                        gall.appendChild(a);
+                    }
+                }
+            };
+            update();
+        </script>
         <div class="bottombar">
             <a href="about.html">About Us</a>
             <a href="sociallinks.html">Social</a>
