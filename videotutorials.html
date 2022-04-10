@@ -59,8 +59,9 @@
             ];
             var gall = document.querySelector("#videoGallery");
             var update = function(filter="") {
+                gall.innerHTML = "";
                 for (var datum of vids) {
-                    if (datum.name.includes(filter)) {
+                    if (datum.name.toLowerCase().includes(filter.toLowerCase())) {
                         var a = document.createElement("a");
                         a.className = "videoCard";
                         a.href = datum.url;
