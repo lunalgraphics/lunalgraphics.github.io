@@ -257,3 +257,21 @@ hr {
     font-size: 18px;
     color: darkgrey;
 }
+
+.searchbar {
+    outline: none!important;
+    width: 88%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid grey;
+    transition: border-bottom 0.69s;
+    margin-bottom: 10px;
+}
+
+.searchbar:focus {
+    border-bottom: 1px solid white;
+}
