@@ -249,6 +249,7 @@ hr {
 .videoCard img {
     width: 345px;
     height: 180px;
+    display: block;
 }
 
 .videoCard div {
