@@ -60,7 +60,7 @@
             var gall = document.querySelector("#videoGallery");
             var update = function(filter="") {
                 gall.innerHTML = "";
-                for (var datum of vids) {
+                for (var datum of vids.reverse()) {
                     if (datum.name.toLowerCase().includes(filter.toLowerCase())) {
                         var a = document.createElement("a");
                         a.className = "videoCard";
