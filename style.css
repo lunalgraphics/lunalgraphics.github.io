@@ -239,6 +239,7 @@ hr {
     background-color: #222222;
     text-decoration: none;
     user-select: none;
+    margin: 10px;
 }
 
 .videoCard:hover {
