@@ -121,6 +121,7 @@ a:hover {
 .learnmorebutton:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .shortbanner {
