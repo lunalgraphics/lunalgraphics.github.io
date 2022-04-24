@@ -151,7 +151,6 @@ a:hover {
 
 #contactform {
     font-size: 24px;
-    font-variant: small-caps;
 }
 
 #contactform textarea {
@@ -163,6 +162,7 @@ a:hover {
     background-color: #111111;
     color: grey;
     border: 1px solid grey;
+    transition: 0.69s;
 }
 
 #contactform input[type=email] {
@@ -173,6 +173,7 @@ a:hover {
     background-color: #111111;
     color: grey;
     border: 1px solid grey;
+    transition: 0.69s;
 }
 
 #contactform input:focus, #contactform textarea:focus {
