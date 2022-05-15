@@ -124,6 +124,10 @@ a:hover {
     cursor: pointer;
 }
 
+a.learnmorebutton {
+    text-decoration: none;
+}
+
 .shortbanner {
     width: 100vw;
     height: 600px;
