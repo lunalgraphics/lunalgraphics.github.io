@@ -284,3 +284,7 @@ hr {
 .jx-label {
     font-size: 12px!important;
 }
+
+.jx-controller, .jx-arrow, .jx-knightlab {
+    display: none!important;
+}
