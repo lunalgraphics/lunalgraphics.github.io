@@ -280,3 +280,7 @@ hr {
 .searchbar:focus {
     border-bottom: 1px solid white;
 }
+
+.jx-label {
+    font-size: 12px!important;
+}
