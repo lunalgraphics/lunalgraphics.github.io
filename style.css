@@ -288,3 +288,7 @@ hr {
 .jx-controller, .jx-arrow, .jx-knightlab {
     display: none!important;
 }
+
+p {
+    font-size: 14px;
+}
