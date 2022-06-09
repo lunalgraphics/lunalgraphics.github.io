@@ -114,7 +114,7 @@ a:hover {
     color: black;
     padding: 6.9px 16px;
     text-transform: uppercase;
-    transition: 1s;
+    transition: 0.69s;
     border-radius: 5px;
     font-family: "Exo 2", Arial, sans-serif;
 }
