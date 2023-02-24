@@ -40,6 +40,8 @@ body {
     height: 48px;
     display: inline-block;
     line-height: 48px;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .topbar i:hover {
@@ -70,6 +72,8 @@ body {
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .topbar .dropdown-content a:hover {
