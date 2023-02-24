@@ -11,7 +11,7 @@ body {
     top: 0;
     left: 0;
     z-index: 999;
-    height: 69px;
+    height: 48px;
     width: 100vw;
     background-color: black;
     text-align: center;
@@ -24,6 +24,8 @@ body {
     left: 0;*/
     display: inline-block;
     vertical-align: middle;
+    margin-right: 10px;
+    height: 48px!important;
 }
 
 .topbar i {
@@ -35,9 +37,9 @@ body {
     padding-right: 10px;
     font-family: "Exo 2", sans-serif;
     font-weight: bolder;
-    height: 69px;
+    height: 48px;
     display: inline-block;
-    line-height: 69px;
+    line-height: 48px;
 }
 
 .topbar i:hover {
@@ -55,7 +57,7 @@ body {
     background-color: black;
     z-index: 999;
     min-width: 222px;
-    top: 69px;
+    top: 48px;
 }
 
 .topbar .dropdown-content a {
