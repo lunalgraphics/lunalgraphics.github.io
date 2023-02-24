@@ -110,13 +110,13 @@ a:hover {
 }
 
 .learnmorebutton {
-    font-size: 16px;
+    font-size: 14px;
     background-color: white;
     border: 0;
     color: black;
-    padding: 6.9px 16px;
+    padding: 7px 18px;
     text-transform: uppercase;
-    transition: 0.69s;
+    transition: 0.32s background-color, 0.32s color;
     border-radius: 5px;
     font-family: "Exo 2", Arial, sans-serif;
 }
