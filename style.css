@@ -125,6 +125,7 @@ a:hover {
     transition: 0.32s background-color, 0.32s color;
     border-radius: 5px;
     font-family: "Exo 2", Arial, sans-serif;
+    letter-spacing: 1px;
 }
 
 .learnmorebutton:hover {
@@ -200,7 +201,7 @@ a.learnmorebutton {
 .bottombar {
     background-color: black;
     width: 100vw;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -211,6 +212,9 @@ a.learnmorebutton {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: color 0.2s;
 }
 
 .bottombar a::before, .bottombar a::after {
