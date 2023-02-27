@@ -107,6 +107,23 @@ body {
     text-align: center;
 }
 
+.newInfoSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 32px;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #191919;
+    padding: 20px;
+}
+
+.infoGridBlock {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CCCCCC!important;
+}
+
 a {
     color: deepskyblue;
     text-decoration: none;
