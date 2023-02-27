@@ -124,6 +124,12 @@ body {
     color: #CCCCCC!important;
 }
 
+@media only screen and ( max-width: 1199px ) {
+    .newInfoSection {
+        grid-template-columns: auto!important;
+    }
+}
+
 a {
     color: deepskyblue;
     text-decoration: none;
