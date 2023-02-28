@@ -116,6 +116,7 @@ body {
     box-sizing: border-box;
     background-color: #191919;
     padding: 20px;
+    align-items: center;
 }
 
 .infoGridBlock {
