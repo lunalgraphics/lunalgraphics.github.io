@@ -328,10 +328,6 @@ hr {
     display: none!important;
 }
 
-p {
-    font-size: 14px;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Exo 2", Arial, sans-serif;
     letter-spacing: 1px;
