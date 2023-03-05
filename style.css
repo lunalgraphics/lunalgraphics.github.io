@@ -204,6 +204,7 @@ a.learnmorebutton {
     color: grey;
     border: 1px solid grey;
     transition: 0.69s;
+    border-radius: 2px;
 }
 
 #contactform input[type=email] {
@@ -214,14 +215,15 @@ a.learnmorebutton {
     background-color: #111111;
     color: grey;
     border: 1px solid grey;
-    transition: 0.69s;
+    transition: 0.12s;
+    border-radius: 2px;
 }
 
 #contactform input:focus, #contactform textarea:focus {
     outline: none!important;
     color: white;
     border: 1px solid white;
-    background-color: #080808;
+    /*background-color: #080808;*/
 }
 
 .bottombar {
