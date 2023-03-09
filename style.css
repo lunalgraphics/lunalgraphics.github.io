@@ -203,7 +203,7 @@ a.learnmorebutton {
     background-color: #111111;
     color: grey;
     border: 1px solid grey;
-    transition: 0.69s;
+    transition: 0.24s;
     border-radius: 2px;
 }
 
@@ -215,7 +215,7 @@ a.learnmorebutton {
     background-color: #111111;
     color: grey;
     border: 1px solid grey;
-    transition: 0.12s;
+    transition: 0.24s;
     border-radius: 2px;
 }
 
