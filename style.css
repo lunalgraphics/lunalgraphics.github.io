@@ -94,7 +94,7 @@ body {
     color: white;
     font-size: 69px;
     background-attachment: fixed;
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
     font-family: "Exo 2", sans-serif;
     letter-spacing: 1px;
 }
@@ -334,4 +334,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Exo 2", Arial, sans-serif;
     letter-spacing: 1px;
     font-weight: 400;
+}
+
+.subtitle {
+    font-size: 24px;
 }
