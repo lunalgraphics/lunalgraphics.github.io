@@ -163,7 +163,8 @@ body {
 
 a {
     color: deepskyblue;
-    text-decoration: none;
+    text-decoration: underline;
+    transition: color 0.2s;
 }
 
 a:hover {
@@ -181,6 +182,7 @@ a:hover {
     border-radius: 5px;
     font-family: "Exo 2", Arial, sans-serif;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .learnmorebutton:hover {
