@@ -149,6 +149,18 @@ body {
     }
 }
 
+.wideInfoSection {
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #191919;
+    padding: 20px 80px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CCCCCC!important;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 a {
     color: deepskyblue;
     text-decoration: none;
