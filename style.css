@@ -11,7 +11,7 @@ body {
     top: 0;
     left: 0;
     z-index: 999;
-    height: 69px;
+    height: 48px;
     width: 100vw;
     background-color: black;
     text-align: center;
@@ -24,6 +24,8 @@ body {
     left: 0;*/
     display: inline-block;
     vertical-align: middle;
+    margin-right: 10px;
+    height: 48px!important;
 }
 
 .topbar i {
@@ -35,9 +37,12 @@ body {
     padding-right: 10px;
     font-family: "Exo 2", sans-serif;
     font-weight: bolder;
-    height: 69px;
+    height: 48px;
     display: inline-block;
-    line-height: 69px;
+    line-height: 48px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: color 0.2s;
 }
 
 .topbar i:hover {
@@ -55,7 +60,7 @@ body {
     background-color: black;
     z-index: 999;
     min-width: 222px;
-    top: 69px;
+    top: 48px;
 }
 
 .topbar .dropdown-content a {
@@ -68,6 +73,9 @@ body {
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: color 0.2s;
 }
 
 .topbar .dropdown-content a:hover {
@@ -85,9 +93,10 @@ body {
     background-position: center;
     color: white;
     font-size: 69px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-attachment: fixed;
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
+    font-family: "Exo 2", sans-serif;
+    letter-spacing: 1px;
 }
 
 .centeredbox {
@@ -98,9 +107,64 @@ body {
     text-align: center;
 }
 
+.newInfoSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 32px;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #191919;
+    padding: 20px;
+    align-items: center;
+}
+
+.infoGridBlock {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CCCCCC!important;
+}
+
+.newInfoSection:nth-child(even) .infoGridBlock:nth-child(1) {
+    grid-column: 2;
+    grid-row: 1;
+}
+.newInfoSection:nth-child(even) .infoGridBlock:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+@media only screen and ( max-width: 1199px ) {
+    .newInfoSection {
+        grid-template-columns: auto!important;
+    }
+    
+    .newInfoSection:nth-child(even) .infoGridBlock:nth-child(1) {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .newInfoSection:nth-child(even) .infoGridBlock:nth-child(2) {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+.wideInfoSection {
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #191919;
+    padding: 20px 80px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CCCCCC!important;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 a {
     color: deepskyblue;
-    text-decoration: none;
+    text-decoration: underline;
+    transition: color 0.2s;
 }
 
 a:hover {
@@ -108,15 +172,17 @@ a:hover {
 }
 
 .learnmorebutton {
-    font-size: 16px;
+    font-size: 14px;
     background-color: white;
     border: 0;
     color: black;
-    padding: 6.9px 16px;
+    padding: 7px 18px;
     text-transform: uppercase;
-    transition: 0.69s;
+    transition: 0.32s background-color, 0.32s color;
     border-radius: 5px;
     font-family: "Exo 2", Arial, sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .learnmorebutton:hover {
@@ -135,9 +201,10 @@ a.learnmorebutton {
     background-size: cover;
     background-position: center;
     font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-attachment: fixed;
+    font-family: "Exo 2", sans-serif;
+    letter-spacing: 1px;
 }
 
 .infosection {
@@ -168,7 +235,8 @@ a.learnmorebutton {
     background-color: #111111;
     color: grey;
     border: 1px solid grey;
-    transition: 0.69s;
+    transition: 0.24s;
+    border-radius: 2px;
 }
 
 #contactform input[type=email] {
@@ -179,20 +247,21 @@ a.learnmorebutton {
     background-color: #111111;
     color: grey;
     border: 1px solid grey;
-    transition: 0.69s;
+    transition: 0.24s;
+    border-radius: 2px;
 }
 
 #contactform input:focus, #contactform textarea:focus {
     outline: none!important;
     color: white;
     border: 1px solid white;
-    background-color: #080808;
+    /*background-color: #080808;*/
 }
 
 .bottombar {
     background-color: black;
     width: 100vw;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -203,6 +272,9 @@ a.learnmorebutton {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: color 0.2s;
 }
 
 .bottombar a::before, .bottombar a::after {
@@ -223,11 +295,11 @@ a.learnmorebutton {
     height: 34px;
     padding: 8px;
     border-radius: 16px;
-    transition: filter 0.69s;
+    transition: filter 0.2s;
 }
 
 .socialicons img:hover {
-    filter: brightness(0.69);
+    filter: brightness(0.42);
 }
 
 hr {
@@ -290,6 +362,12 @@ hr {
     display: none!important;
 }
 
-p {
-    font-size: 14px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Exo 2", Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 24px;
 }
