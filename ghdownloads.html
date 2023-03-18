@@ -118,6 +118,9 @@
                         case "AppImage":
                             document.querySelector("#linuxdownload").href = asset.browser_download_url;
                             break;
+                        case "zip":
+                            document.querySelector("#darwindownload").href = asset.browser_download_url;
+                            break;
                         case "dmg":
                             document.querySelector("#darwindownload").href = asset.browser_download_url;
                             break;
@@ -142,6 +145,9 @@
                                 linuxcol.innerHTML = `<a href="${asset.browser_download_url}">Download</a>`;
                                 break;
                             case "dmg":
+                                darwincol.innerHTML = `<a href="${asset.browser_download_url}">Download</a>`;
+                                break;
+                            case "zip":
                                 darwincol.innerHTML = `<a href="${asset.browser_download_url}">Download</a>`;
                                 break;
                             case "exe":
