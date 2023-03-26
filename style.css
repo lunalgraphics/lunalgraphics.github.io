@@ -264,6 +264,8 @@ a.learnmorebutton {
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    font-family: "Exo 2", sans-serif;
+    letter-spacing: 1px;
 }
 
 .bottombar a {
