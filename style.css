@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 body {
     margin: 0;
@@ -35,13 +35,12 @@ body {
     vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Exo 2", sans-serif;
+    font-family: "Orbitron", sans-serif;
     font-weight: bolder;
     height: 48px;
     display: inline-block;
     line-height: 48px;
     font-size: 12px;
-    letter-spacing: 1px;
     transition: color 0.2s;
 }
 
@@ -68,13 +67,12 @@ body {
     color: white;
     display: block;
     padding: 10px 10px;
-    font-family: "Exo 2", sans-serif;
+    font-family: "Orbitron", sans-serif;
     font-weight: bolder;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    letter-spacing: 1px;
     transition: color 0.2s;
 }
 
@@ -95,8 +93,7 @@ body {
     font-size: 69px;
     /*background-attachment: fixed;*/
     /*font-variant: small-caps;*/
-    font-family: "Exo 2", sans-serif;
-    letter-spacing: 1px;
+    font-family: "Orbitron", sans-serif;
 }
 
 .centeredbox {
@@ -180,8 +177,7 @@ a:hover {
     text-transform: uppercase;
     transition: 0.32s background-color, 0.32s color;
     border-radius: 5px;
-    font-family: "Exo 2", Arial, sans-serif;
-    letter-spacing: 1px;
+    font-family: "Orbitron", Arial, sans-serif;
     text-decoration: none;
 }
 
@@ -203,8 +199,7 @@ a.learnmorebutton {
     font-size: 50px;
     color: white;
     /*background-attachment: fixed;*/
-    font-family: "Exo 2", sans-serif;
-    letter-spacing: 1px;
+    font-family: "Orbitron", sans-serif;
 }
 
 .infosection {
@@ -264,17 +259,15 @@ a.learnmorebutton {
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
-    font-family: "Exo 2", sans-serif;
-    letter-spacing: 1px;
+    font-family: "Orbitron", sans-serif;
 }
 
 .bottombar a {
     color: white;
-    font-family: "Exo 2", sans-serif;
+    font-family: "Orbitron", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    letter-spacing: 1px;
     font-size: 12px;
     transition: color 0.2s;
 }
@@ -365,8 +358,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Exo 2", Arial, sans-serif;
-    letter-spacing: 1px;
+    font-family: "Orbitron", Arial, sans-serif;
     font-weight: 400;
 }
 
