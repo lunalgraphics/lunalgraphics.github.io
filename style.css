@@ -170,19 +170,19 @@ a:hover {
 
 .learnmorebutton {
     font-size: 14px;
-    background-color: white;
-    border: 0;
-    color: black;
-    padding: 7px 18px;
+    background-color: black;
+    border: 1px solid grey;
+    color: white;
+    padding: 7px 16px;
     text-transform: uppercase;
-    transition: 0.32s background-color, 0.32s color;
-    border-radius: 5px;
+    transition: 0.32s background-color;
+    border-radius: 4px;
     font-family: "Orbitron", Arial, sans-serif;
     text-decoration: none;
 }
 
 .learnmorebutton:hover {
-    background-color: black;
+    background-color: grey;
     color: white;
     cursor: pointer;
 }
