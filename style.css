@@ -365,3 +365,24 @@ h1, h2, h3, h4, h5, h6 {
 .subtitle {
     font-size: 24px;
 }
+
+@media only screen and ( max-width: 720px ) {
+    .newInfoSection img {
+        max-width: calc(100vw - 100px)!important;
+    }
+    
+    .juxtapose {
+        width: calc(100vw - 100px)!important;
+    }
+
+    .videoCard {
+        max-width: calc(100vw - 100px)!important;
+    }
+    .videoCard img {
+        width: calc(100vw - 100px)!important;
+        height: calc((100vw - 100px) / 345 * 180)!important;
+    }
+    .shortbanner {
+        font-size: 42px;
+    }
+}
