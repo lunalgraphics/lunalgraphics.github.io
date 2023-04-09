@@ -391,7 +391,9 @@ h1, h2, h3, h4, h5, h6 {
         width: calc(100vw - 100px)!important;
         height: calc((100vw - 100px) / 345 * 180)!important;
     }
-    
+}
+
+@media only screen and ( max-width: 500px ) {
     .shortbanner {
         font-size: 42px;
     }
