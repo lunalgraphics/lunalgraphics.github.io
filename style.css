@@ -428,6 +428,14 @@ h1, h2, h3, h4, h5, h6 {
         color: white;
     }
 
+    .burgerToggle:after {
+        content: "\2630";
+    }
+
+    input[type=checkbox]:checked ~ .burgerToggle:after {
+        content: "\2715";
+    }
+
     input[type=checkbox]:checked ~ .dropdown {
         display: inline-block!important;
     }
