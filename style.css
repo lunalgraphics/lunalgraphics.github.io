@@ -12,7 +12,7 @@ body {
     left: 0;
     z-index: 999;
     height: 48px;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     text-align: center;
     user-select: none;
@@ -364,4 +364,84 @@ h1, h2, h3, h4, h5, h6 {
 
 .subtitle {
     font-size: 24px;
+}
+
+.burgerToggle {
+    display: none;
+}
+
+#burgerToggleReal {
+    display: none;
+}
+
+@media only screen and ( max-width: 720px ) {
+    .newInfoSection img {
+        max-width: calc(100vw - 100px)!important;
+    }
+    
+    .juxtapose {
+        width: calc(100vw - 100px)!important;
+    }
+
+    .videoCard {
+        max-width: calc(100vw - 100px)!important;
+    }
+    
+    .videoCard img {
+        width: calc(100vw - 100px)!important;
+        height: calc((100vw - 100px) / 345 * 180)!important;
+    }
+}
+
+@media only screen and ( max-width: 500px ) {
+    .shortbanner {
+        font-size: 42px;
+    }
+
+    .topbar .logoimage {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .topbar i {
+        display: block;
+        width: 100vw;
+        background-color: black;
+        height: auto!important;
+    }
+    
+    .topbar .dropdown {
+        display: none;
+    }
+    
+    .topbar .dropdown .dropdown-content {
+        position: static;
+        display: block;
+    }
+
+    .burgerToggle {
+        display: block;
+        float: right;
+        height: 48px;
+        line-height: 48px;
+        margin-right: 14px;
+        color: white;
+        font-size: 21px;
+    }
+
+    .burgerToggle:after {
+        content: "\2630";
+    }
+
+    input[type=checkbox]:checked ~ .burgerToggle:after {
+        content: "\2715";
+    }
+
+    input[type=checkbox]:checked ~ .dropdown {
+        display: inline-block!important;
+    }
+
+    .topbar i:hover {
+        color: white;
+    }
 }
