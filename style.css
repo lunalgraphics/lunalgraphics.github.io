@@ -388,8 +388,8 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .videoCard img {
-        width: calc(100vw - 100px)!important;
-        height: calc((100vw - 100px) / 345 * 180)!important;
+        max-width: calc(100vw - 100px)!important;
+        max-height: calc((100vw - 100px) / 345 * 180)!important;
     }
 }
 
