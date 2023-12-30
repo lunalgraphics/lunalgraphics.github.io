@@ -94,5 +94,11 @@
             <a href="contact.html">Contact Us</a>
             <div style="color: white; margin-top: 5px; font-size: 12px;">&copy; 2023 Lunal Graphics</div>
         </div>
+        <script>
+            let searchParams = new URLSearchParams(location.search);
+            if (searchParams.get("email")) document.querySelector("input[name=email]").value = searchParams.get("email");
+            if (searchParams.get("topic")) document.querySelector("select[name=topic]").value = searchParams.get("topic");
+            if (searchParams.get("message")) document.querySelector("textarea[name=message]").value = searchParams.get("message");
+        </script>
     </body>
 </html>
