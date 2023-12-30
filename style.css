@@ -247,7 +247,19 @@ a.learnmorebutton {
     border-radius: 2px;
 }
 
-#contactform input:focus, #contactform textarea:focus {
+#contactform select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #111111;
+    color: grey;
+    border: 1px solid grey;
+    transition: 0.24s;
+    border-radius: 2px;
+}
+
+#contactform input:focus, #contactform textarea:focus, #contactform select:focus {
     outline: none!important;
     color: white;
     border: 1px solid white;
