@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="dark">
     <head>
-        <title>All Video Tutorials | Lunal Graphics</title>
+        <title>Community Resources | Lunal Graphics</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" href="logo_cool.png" />
         <meta name="description" content="Affordable creative software">
@@ -9,7 +9,6 @@
         <meta property="og:image" content="https://lunalgraphics.github.io/socialpreview.jpg" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <!--<meta http-equiv="refresh" content="0; url = https://dartfling.com/u#lunalgraphics" />-->
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWCHRCQ92W"></script>
         <script>
@@ -62,67 +61,23 @@
                 </div>
             </div>
         </div>
-        <div class="shortbanner" style="background-image: url('marketing-images/MatrixText.jpg');">
-            <div class="centeredbox">All Video Tutorials</div>
+        <div class="frontpagesection" style="background-image: url('marketing-images/Shockwave.jpg');">
+            <div class="centeredbox">
+                Community Resources
+                <span style="font-size: 24px;"><br />Currently under construction</span>
+            </div>
         </div>
-        <div class="infosection">
-            <input class="searchbar" type="text" placeholder="Find a video" />
-            <div id="videoGallery"></div>
-        </div>
-        <script>
-            var vids = [
-                {
-                    "url": "https://www.youtube.com/watch?v=VDto88C0Kkc",
-                    "name": "Introduction to Sprite Replicator",
-                    "thumb": "https://i.ytimg.com/vi/VDto88C0Kkc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBoCly3eaGClUkqqVGtprjEv9wefQ"
-                },
-                {
-                    "url": "https://youtu.be/fzBXbp5ji-Y",
-                    "name": "Getting Started With Zeus",
-                    "thumb": "https://i.ytimg.com/vi/fzBXbp5ji-Y/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAg8iVqjOPPRkbBoHNrMDHr4X9rJA"
-                },
-                {
-                    "url": "https://youtu.be/XO5J1kqNiYM",
-                    "name": "Light Bloom/Glow With SuperBloom",
-                    "thumb": "https://i.ytimg.com/vi/XO5J1kqNiYM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWUuf29nRGxDuVpEyoAFa1EBXxuw"
-                },
-                {
-                    "url": "https://youtu.be/EOsO6-void8",
-                    "name": "Progen Flares 2 First Look",
-                    "thumb": "https://i.ytimg.com/vi/EOsO6-void8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6DsoCuC5vKPsSUdTIkbDS1EAIqA"
-                },
-            ];
-            var gall = document.querySelector("#videoGallery");
-            var update = function(filter="") {
-                gall.innerHTML = "";
-                for (var datum of vids.slice().reverse()) {
-                    if (datum.name.toLowerCase().includes(filter.toLowerCase())) {
-                        var a = document.createElement("a");
-                        a.className = "videoCard";
-                        a.href = datum.url;
-                        var img = new Image();
-                        img.src = datum.thumb;
-                        img.setAttribute("draggable", "false");
-                        a.appendChild(img);
-                        var innerdiv = document.createElement("div");
-                        innerdiv.innerText = datum.name;
-                        a.appendChild(innerdiv);
-                        a.target = "_blank";
-                        gall.appendChild(a);
-                    }
-                }
-            };
-            update();
-            
-            document.querySelector(".searchbar").addEventListener("input", function() {
-                update(this.value);
-            });
-        </script>
         <div class="bottombar">
             <a href="about.html">About Us</a>
             <a href="sociallinks.html">Social</a>
             <a href="contact.html">Contact Us</a>
             <div style="color: white; margin-top: 5px; font-size: 12px;">&copy; 2023 Lunal Graphics</div>
         </div>
+        <script>
+            let searchParams = new URLSearchParams(location.search);
+            if (searchParams.get("email")) document.querySelector("input[name=email]").value = searchParams.get("email");
+            if (searchParams.get("topic")) document.querySelector("select[name=topic]").value = searchParams.get("topic");
+            if (searchParams.get("message")) document.querySelector("textarea[name=message]").value = searchParams.get("message");
+        </script>
     </body>
 </html>
