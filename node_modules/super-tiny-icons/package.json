@@ -1,0 +1,48 @@
+{
+	"name": "super-tiny-icons",
+	"version": "0.6.0",
+	"description": "Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos",
+	"homepage": "https://github.com/edent/SuperTinyIcons/",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/edent/SuperTinyIcons/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/edent/SuperTinyIcons.git"
+	},
+	"files": [
+		"images/svg/"
+	],
+	"author": {
+		"name": "Terence Eden",
+		"url": "https://shkspr.mobi/blog/"
+	},
+	"keywords": [
+		"icons",
+		"svg",
+		"iconset",
+		"logo",
+		"logos",
+		"twitter",
+		"facebook",
+		"flattr",
+		"drawable"
+	],
+	"dependencies": {
+		"opencollective-postinstall": "^2.0.2"
+	},
+	"collective": {
+		"type": "opencollective",
+		"url": "https://opencollective.com/SuperTinyIcons"
+	},
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha --timeout 5000",
+		"postinstall": "opencollective-postinstall || true"
+	},
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"mocha": "^9.2.2",
+		"node-fetch": "^3.1.1"
+	}
+}
