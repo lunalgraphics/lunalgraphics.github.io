@@ -1,4 +1,4 @@
-import{s as _,n as y}from"../chunks/scheduler.CK06ib0F.js";import{S,i as L,e as h,s as p,o as N,c as b,g as d,f,p as $,q as x,d as n,h as g,m as k,j as c,r as B,u as H,v as I,w as M}from"../chunks/index.B1Y3TgPi.js";import{b as T}from"../chunks/paths.BAzaOBqO.js";import{b as w}from"../chunks/shockwave.D5YMmdky.js";import{S as C}from"../chunks/SocialMetadata.BR6PEy3b.js";function E(v){let t,m=`<div class="centered"><h1>New Site, New Blog</h1> <p>Let&#39;s talk about the new website!<br/>
+import{s as _,n as y}from"../chunks/scheduler.CK06ib0F.js";import{S,i as L,e as h,s as p,o as N,c as b,g as d,f,p as $,q as x,d as n,h as g,m as k,j as c,r as B,u as H,v as I,w as M}from"../chunks/index.B1Y3TgPi.js";import{b as T}from"../chunks/paths.Bz2TGVfJ.js";import{b as w}from"../chunks/shockwave.D5YMmdky.js";import{S as C}from"../chunks/SocialMetadata.BR6PEy3b.js";function E(v){let t,m=`<div class="centered"><h1>New Site, New Blog</h1> <p>Let&#39;s talk about the new website!<br/>
             Blog Entry 1<br/>
             2024-07-25</p></div>`,o,a,u=`So... <br/> <br/>
     New website is here. Not too much to say about it.
