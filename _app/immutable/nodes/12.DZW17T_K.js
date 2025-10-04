@@ -1,4 +1,4 @@
-import{S as _,i as y,s as S,n as L,d as n,p as x,q as N,r as $,b as c,u as k,e as h,v as B,f as b,k as p,j as d,w as H,x as I,l as f,m as g,y as M}from"../chunks/81mQ-QQd.js";import"../chunks/IHki7fMi.js";import{b as T}from"../chunks/DkcDmrPK.js";import{b as w}from"../chunks/D5YMmdky.js";import{S as C}from"../chunks/CM4zS6sr.js";function E(v){let t,m=`<div class="centered"><h1>New Site, New Blog</h1> <p>Let&#39;s talk about the new website!<br/>
+import{S as _,i as y,s as S,n as L,d as n,p as x,q as N,r as $,b as c,u as k,e as h,v as B,f as b,k as p,j as d,w as H,x as I,l as f,m as g,y as M}from"../chunks/81mQ-QQd.js";import"../chunks/IHki7fMi.js";import{b as T}from"../chunks/Cy8_nOxb.js";import{b as w}from"../chunks/D5YMmdky.js";import{S as C}from"../chunks/CM4zS6sr.js";function E(v){let t,m=`<div class="centered"><h1>New Site, New Blog</h1> <p>Let&#39;s talk about the new website!<br/>
             Blog Entry 1<br/>
             2024-07-25</p></div>`,o,a,u=`So... <br/> <br/>
     New website is here. Not too much to say about it.
