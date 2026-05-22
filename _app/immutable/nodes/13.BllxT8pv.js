@@ -1,0 +1,4 @@
+import"../chunks/CNJi7lul.js";import"../chunks/u8VThSPv.js";import{aN as o,z as i,ah as n}from"../chunks/zd17bWsq.js";import"../chunks/CcWZuSoM.js";import{B as r}from"../chunks/Blr7Mk1d.js";import{b as s}from"../chunks/D5YMmdky.js";var l=n(`<p>So...</p> <p>New website is here. Not too much to say about it.
+		I've tried to revamp the website before, but there was always something missing.
+		Now, using SvelteKit, I think I've finally made it into something scalable and beautiful.</p> <p>So that's basically it. Sorry Lunal Graphics hasn't been releasing much new stuff lately.
+		That pattern will not continue. Expect some exciting stuff this year!</p> <p>Have a great day!</p>`,1);function w(t){r(t,{title:"New Site, New Blog",date:"2024-07-25",description:"Let's talk about the new website!",get banner(){return s},bannerAlt:"Shockwave effect",author:"Yikuan Sun",children:(e,p)=>{var a=l();o(6),i(e,a)},$$slots:{default:!0}})}export{w as component};
