@@ -1,0 +1,95 @@
+@import 'tailwindcss';
+@import '@fontsource/orbitron/600.css';
+
+@theme {
+	--color-surface: #222222;
+	--color-surface-dark: #000000;
+	--color-surface-light: #333333;
+	--color-accent: #00bfff;
+	--color-accent-hover: #f0f8ff;
+	--color-text: #cccccc;
+	--color-text-muted: #999999;
+	--color-text-bright: #dddddd;
+
+	--font-heading: 'Orbitron', sans-serif;
+	--font-body: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		scrollbar-color: #444444 transparent;
+	}
+
+	body {
+		@apply bg-surface text-text font-body overflow-x-hidden overflow-y-scroll m-0;
+	}
+
+	/* Custom scrollbar (Webkit) */
+	::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #444444;
+		border-radius: 4px;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: #555555;
+	}
+
+	/* Text selection */
+	::selection {
+		background: rgba(0, 191, 255, 0.25);
+		color: #ffffff;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: var(--font-heading);
+		margin: 0;
+	}
+
+	a {
+		@apply text-accent no-underline transition-colors duration-150;
+	}
+
+	a:hover {
+		@apply text-accent-hover;
+	}
+}
+
+/* View Transitions — crossfade with old snapshot on top */
+::view-transition-old(root) {
+	animation: 200ms ease both fade-out;
+	z-index: 1;
+}
+
+::view-transition-new(root) {
+	animation: 200ms ease both fade-in;
+	animation-delay: 100ms;
+	opacity: 0;
+}
+
+/* Exclude persistent layout elements from transition */
+::view-transition-old(topbar),
+::view-transition-new(topbar),
+::view-transition-old(footer),
+::view-transition-new(footer) {
+	animation: none;
+}
+
+@keyframes fade-out {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+@keyframes fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}

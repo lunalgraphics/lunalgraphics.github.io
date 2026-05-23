@@ -1,1 +1,0 @@
-import{ac as e}from"./zd17bWsq.js";import{a as r}from"./CcWZuSoM.js";e();const t=()=>{const s=r;return{page:{subscribe:s.page.subscribe},navigating:{subscribe:s.navigating.subscribe},updated:s.updated}},c={subscribe(s){return t().page.subscribe(s)}};export{c as p};
