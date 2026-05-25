@@ -34,7 +34,7 @@ export const products: Product[] = [
 		description: 'Zeus lets artists create intense electrical energy effects.',
 		banner: '/images/zeusBanner.jpg',
 		webLauncherHash: 'zeus',
-		downloadUrl: '/ghdownloads#zeus',
+		downloadUrl: '/ghdownloads/zeus',
 		downloadExternal: false,
 		hasPhotoshopPage: false,
 		sections: [
@@ -81,7 +81,7 @@ export const products: Product[] = [
 		description: 'Sprite Replicator lets artists create complex patterns or particle effects.',
 		banner: '/images/spritereplicatorBanner.jpg',
 		webLauncherHash: 'spritereplicator',
-		downloadUrl: '/ghdownloads#spritereplicator',
+		downloadUrl: '/ghdownloads/spritereplicator',
 		downloadExternal: false,
 		hasPhotoshopPage: false,
 		sections: [
@@ -138,7 +138,7 @@ export const products: Product[] = [
 		description: 'Color Theater lets artists create beautiful color grades quickly.',
 		banner: '/images/colortheaterBanner.jpg',
 		webLauncherHash: 'colortheater',
-		downloadUrl: '/ghdownloads#colortheater',
+		downloadUrl: '/ghdownloads/colortheater',
 		downloadExternal: false,
 		hasPhotoshopPage: false,
 		sections: [
