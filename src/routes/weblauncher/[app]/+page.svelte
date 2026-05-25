@@ -17,7 +17,7 @@
 <SocialMetadata title="{app.name} — Web Launcher" description="Launch {app.name} in your browser." />
 
 <div class="flex items-center gap-4 px-4 py-2 bg-surface-dark border-b border-surface-light text-sm">
-	<a href="/weblauncher" onclick={(e) => { if (history.length > 1) { e.preventDefault(); history.back(); } }} class="text-accent hover:text-accent-hover">← Back</a>
+	<a href={app.aboutPage} class="text-accent hover:text-accent-hover">← Back</a>
 	<span class="text-text-bright font-heading">{app.name}</span>
 	<span class="text-text-muted">|</span>
 	<button onclick={refreshIframe} class="text-text-muted hover:text-text-bright transition-colors" title="Refresh">

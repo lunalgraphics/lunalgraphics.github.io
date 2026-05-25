@@ -40,7 +40,7 @@
 
 <article class="max-w-3xl mx-auto px-6 py-16">
 	<div class="flex items-center gap-4 mb-8">
-		<a href="/ghdownloads" class="text-sm text-accent hover:text-accent-hover">← Back</a>
+		<a href={app.aboutPage} class="text-sm text-accent hover:text-accent-hover">← Back</a>
 		<h2 class="text-xl font-heading text-white">{app.name}</h2>
 	</div>
 
