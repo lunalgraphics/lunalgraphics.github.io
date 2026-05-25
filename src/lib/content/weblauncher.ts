@@ -5,7 +5,7 @@ export interface WebApp {
 }
 
 export const webApps: WebApp[] = [
-	{ slug: 'superbloom', name: 'SuperBloom', url: 'https://lunalgraphics.com/glowrenderer/' },
+	{ slug: 'superbloom', name: 'SuperBloom', url: 'https://lunalgraphics.com/superbloom/' },
 	{ slug: 'progenflares2', name: 'Progen Flares 2', url: 'https://progenflares2-web-preview.vercel.app/' },
 	{ slug: 'zeus', name: 'Zeus', url: 'https://yikuansun.github.io/lightning-experiment/' },
 	{ slug: 'spritereplicator', name: 'Sprite Replicator', url: 'https://yikuansun.github.io/sprite-replicator/' },
