@@ -189,8 +189,8 @@ export const products: Product[] = [
 		description: 'SuperBloom lets artists create beautiful bloom and glow effects easily.',
 		banner: '/images/superbloomBanner.jpg',
 		webLauncherHash: 'superbloom',
-		downloadUrl: 'https://www.patreon.com/posts/superbloom-v2-0-132382216?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link',
-		downloadExternal: true,
+		downloadUrl: '/ghdownloads/superbloom',
+		downloadExternal: false,
 		hasPhotoshopPage: true,
 		sections: [
 			{

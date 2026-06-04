@@ -8,7 +8,8 @@ export interface GhApp {
 export const ghApps: GhApp[] = [
 	{ slug: 'spritereplicator', name: 'Sprite Replicator', repo: 'yikuansun/sprite-replicator', aboutPage: '/about-spritereplicator' },
 	{ slug: 'zeus', name: 'Zeus', repo: 'yikuansun/lightning-experiment', aboutPage: '/about-zeus' },
-	{ slug: 'colortheater', name: 'Color Theater', repo: 'lunalgraphics/colortheater', aboutPage: '/about-colortheater' }
+	{ slug: 'colortheater', name: 'Color Theater', repo: 'lunalgraphics/colortheater', aboutPage: '/about-colortheater' },
+	{ slug: 'superbloom', name: 'SuperBloom', repo: 'lunalgraphics/superbloom', aboutPage: '/about-superbloom' },
 ];
 
 export function getGhApp(slug: string): GhApp | undefined {
