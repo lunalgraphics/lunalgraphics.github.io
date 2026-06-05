@@ -25,7 +25,7 @@
 
 	onMount(async () => {
 		try {
-			const res = await fetch('https://lunalgraphics-communityresources.vercel.app/api/v1/resources');
+			const res = await fetch('https://lunalgraphics-community-resources-a.vercel.app/api/v2/resources');
 			if (!res.ok) throw new Error('Failed to fetch');
 			const json = await res.json();
 			resources = Array.isArray(json) ? json : (json.data ?? []);

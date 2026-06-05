@@ -59,7 +59,7 @@
 	}
 
 	async function submitForm() {
-		const response = await fetch('https://lunalgraphics-communityresources.vercel.app/api/v1/resources', {
+		const response = await fetch('https://lunalgraphics-community-resources-a.vercel.app/api/v2/resources', {
 			method: 'POST',
 			body: JSON.stringify(submissionDetails),
 			headers: { 'Content-Type': 'application/json' }
