@@ -15,27 +15,24 @@
 
 	<DropdownMenu.Portal>
 		<DropdownMenu.Content
-			class="z-[100] min-w-[180px] rounded-md border border-surface-light
-				bg-surface-dark p-2 shadow-lg backdrop-blur-sm animate-in fade-in-0 zoom-in-95"
+			class="z-[100] min-w-[180px] rounded-md border-0
+				bg-surface-dark/80 px-0 py-2 shadow-sm backdrop-blur-sm animate-in fade-in-0 zoom-in-95"
 			sideOffset={8}
 			preventScroll={false}
 		>
 			{#each section.links as link}
 				<DropdownMenu.Item
-					class="block rounded-sm text-sm text-text-bright
+					class="block text-sm text-text-bright
 						hover:bg-surface-light hover:text-accent transition-colors
 						duration-150 cursor-pointer outline-none
 						data-[highlighted]:bg-surface-light data-[highlighted]:text-accent"
 				>
-					{#if link.external}
-						<a href={link.href} target="_blank" rel="noopener noreferrer" class="block w-full px-3 py-2">
-							{link.title}
-						</a>
-					{:else}
-						<a href={link.href} class="block w-full px-3 py-2">
-							{link.title}
-						</a>
-					{/if}
+					<a href={link.href} class="block w-full px-5 py-2"
+						target={link.external ? '_blank' : '_self'}
+						rel={link.external ? 'noopener noreferrer' : ''}
+					>
+						{link.title}
+					</a>
 				</DropdownMenu.Item>
 			{/each}
 		</DropdownMenu.Content>
