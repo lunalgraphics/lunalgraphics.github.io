@@ -252,8 +252,8 @@ export const products: Product[] = [
 		description: 'Progen Flares 2 lets artists create beautiful custom lens flares.',
 		banner: '/images/progenflares2Banner.jpg',
 		webLauncherHash: 'progenflares2',
-		downloadUrl: 'https://www.patreon.com/posts/progen-flares-2-140240580',
-		downloadExternal: true,
+		downloadUrl: '/ghdownloads/progenflares2',
+		downloadExternal: false,
 		hasPhotoshopPage: true,
 		sections: [
 			{
