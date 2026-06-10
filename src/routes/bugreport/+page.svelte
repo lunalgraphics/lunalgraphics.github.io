@@ -46,8 +46,10 @@
 				class="w-full px-4 py-3 bg-surface-dark border border-surface-light rounded
 					text-text-bright outline-none focus:border-accent transition-colors"
 			>
-				<option>Photopea (Web)</option>
-				<option>Photoshop</option>
+				<option>Standalone Web App</option>
+				<option>Standalone Desktop App</option>
+				<option>Photopea Plugin</option>
+				<option>Photoshop Plugin</option>
 			</select>
 		</div>
 
