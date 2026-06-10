@@ -10,6 +10,7 @@ export const ghApps: GhApp[] = [
 	{ slug: 'zeus', name: 'Zeus', repo: 'yikuansun/lightning-experiment', aboutPage: '/about-zeus' },
 	{ slug: 'colortheater', name: 'Color Theater', repo: 'lunalgraphics/colortheater', aboutPage: '/about-colortheater' },
 	{ slug: 'superbloom', name: 'SuperBloom', repo: 'lunalgraphics/superbloom', aboutPage: '/about-superbloom' },
+	{ slug: 'progenflares2', name: 'Progen Flares 2', repo: 'lunalgraphics/progenflares2', aboutPage: '/about-progenflares2' },
 ];
 
 export function getGhApp(slug: string): GhApp | undefined {
