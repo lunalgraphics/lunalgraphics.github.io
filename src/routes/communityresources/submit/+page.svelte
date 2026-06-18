@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { SocialMetadata } from '$lib/components';
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 
 	let step = $state(0);
 	let agreeToGuidelines = $state(false);
@@ -66,6 +66,7 @@
 		});
 		const json = await response.json();
 		resourceId = json.data;
+		await tick();
 		notificationForm?.submit();
 	}
 
