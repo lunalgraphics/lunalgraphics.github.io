@@ -7,7 +7,7 @@ export interface GhApp {
 
 export const ghApps: GhApp[] = [
 	{ slug: 'spritereplicator', name: 'Sprite Replicator', repo: 'yikuansun/sprite-replicator', aboutPage: '/about-spritereplicator' },
-	{ slug: 'zeus', name: 'Zeus', repo: 'yikuansun/lightning-experiment', aboutPage: '/about-zeus' },
+	{ slug: 'zeus', name: 'Zeus', repo: 'lunalgraphics/zeus', aboutPage: '/about-zeus' },
 	{ slug: 'colortheater', name: 'Color Theater', repo: 'lunalgraphics/colortheater', aboutPage: '/about-colortheater' },
 	{ slug: 'superbloom', name: 'SuperBloom', repo: 'lunalgraphics/superbloom', aboutPage: '/about-superbloom' },
 	{ slug: 'progenflares2', name: 'Progen Flares 2', repo: 'lunalgraphics/progenflares2', aboutPage: '/about-progenflares2' },
