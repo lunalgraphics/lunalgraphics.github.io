@@ -28,7 +28,7 @@
 						data-[highlighted]:bg-surface-light data-[highlighted]:text-accent"
 				>
 					<a href={link.href} class="block w-full px-5 py-2"
-						target={link.external ? '_blank' : '_self'}
+						target={link.external ? '_blank' : null}
 						rel={link.external ? 'noopener noreferrer' : ''}
 					>
 						{link.title}
