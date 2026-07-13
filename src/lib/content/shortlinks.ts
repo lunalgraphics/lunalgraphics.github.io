@@ -4,6 +4,9 @@ export const shortlinks: Record<string, string> = {
     'discord': 'https://discord.gg/NqcVDCcqd4',
     'patreon': 'https://www.patreon.com/yikuans',
     '1yrreel': 'https://www.youtube.com/watch?v=iTLwogYlHIg',
+    '1': 'https://www.youtube.com/watch?v=iTLwogYlHIg',
+    '2': 'https://discord.gg/NqcVDCcqd4',
+    '3': 'https://www.patreon.com/yikuans',
 };
 
 export function resolveShortlink(slug: string): string | undefined {
