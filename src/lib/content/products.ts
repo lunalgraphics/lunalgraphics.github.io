@@ -36,7 +36,7 @@ export const products: Product[] = [
 		webLauncherHash: 'zeus',
 		downloadUrl: '/ghdownloads/zeus',
 		downloadExternal: false,
-		hasPhotoshopPage: false,
+		hasPhotoshopPage: true,
 		sections: [
 			{
 				title: 'What is Zeus?',
@@ -71,7 +71,13 @@ export const products: Product[] = [
 			{
 				title: 'Use Zeus Directly in Photopea',
 				description: 'Zeus is available as a Photopea plugin. Learn how to install it <a href="/blog/2">here</a>.'
-			}
+			},
+			{
+				title: 'Zeus for Photoshop',
+				description: 'Zeus is now available as a Photoshop plugin!',
+				image: '/images/zeus-photoshop-demo.png',
+				imageAlt: 'Zeus for Photoshop'
+			},
 		]
 	},
 	{

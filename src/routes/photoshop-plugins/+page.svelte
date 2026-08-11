@@ -2,6 +2,7 @@
 	import { SocialMetadata } from '$lib/components';
 	import superbloomDemo from '$lib/assets/images/superbloom-photoshop-demo.png';
 	import pf2Demo from '$lib/assets/images/progenflares2-photoshop-demo.jpg';
+	import zeusDemo from '$lib/assets/images/zeus-photoshop-demo.png';
 </script>
 
 <SocialMetadata title="Photoshop Plugins" description="Free Photoshop plugins by Lunal Graphics." />
@@ -44,6 +45,23 @@
 					hover:bg-surface-light transition-colors"
 			>
 				Install Progen Flares 2
+			</a>
+		</section>
+
+		<!-- Zeus -->
+		<section class="space-y-4">
+			<h2 class="text-2xl font-heading text-white">Zeus for Photoshop</h2>
+			<img src={zeusDemo} alt="Zeus running in Photoshop" class="w-full rounded-lg" />
+			<p class="text-text">
+				Awesome lightning and electricity effects in Photoshop.
+			</p>
+			<a
+				href="/about-zeus/photoshop"
+				class="inline-block px-5 py-2.5 font-heading text-sm text-text-bright
+					border-2 border-text-bright rounded bg-surface
+					hover:bg-surface-light transition-colors"
+			>
+				Install Zeus
 			</a>
 		</section>
 	</div>

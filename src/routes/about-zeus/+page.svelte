@@ -10,6 +10,7 @@
 	import ex2after from '$lib/assets/examples/zeus2after.jpg';
 	import ex3before from '$lib/assets/examples/zeus3before.jpg';
 	import ex3after from '$lib/assets/examples/zeus3after.jpg';
+	import photoshopDemo from '$lib/assets/images/zeus-photoshop-demo.png';
 
 	const product = getProductBySlug('about-zeus');
 	if (!product) error(404, 'Product not found');
@@ -20,7 +21,8 @@
 		'zeus2before.jpg': ex2before,
 		'zeus2after.jpg': ex2after,
 		'zeus3before.jpg': ex3before,
-		'zeus3after.jpg': ex3after
+		'zeus3after.jpg': ex3after,
+		'zeus-photoshop-demo.png': photoshopDemo,
 	};
 </script>
 
