@@ -11,7 +11,6 @@ const standardRoutes = [
 	'/about-spritereplicator',
 	'/about-progenflares2',
 	'/about-progenflares2/photoshop',
-	'/photoshop-plugins',
 	'/blog',
 	'/blog/1',
 	'/blog/2',

@@ -28,7 +28,6 @@ export const navigation: NavSection[] = [
 			{ title: 'Zeus', href: '/about-zeus' },
 			{ title: 'Color Theater', href: '/about-colortheater' },
 			{ title: 'Progen Flares 2', href: '/about-progenflares2' },
-			{ title: 'Photoshop Plugins', href: '/photoshop-plugins' }
 		]
 	},
 	{
