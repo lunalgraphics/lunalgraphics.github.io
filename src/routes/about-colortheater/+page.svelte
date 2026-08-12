@@ -10,6 +10,7 @@
 	import ex2after from '$lib/assets/examples/colortheater2after.jpg';
 	import ex3before from '$lib/assets/examples/colortheater3before.jpg';
 	import ex3after from '$lib/assets/examples/colortheater3after.jpg';
+	import photoshopDemo from '$lib/assets/images/color-theater-photoshop-demo.png';
 
 	const product = getProductBySlug('about-colortheater');
 	if (!product) error(404, 'Product not found');
@@ -20,7 +21,8 @@
 		'colortheater2before.jpg': ex2before,
 		'colortheater2after.jpg': ex2after,
 		'colortheater3before.jpg': ex3before,
-		'colortheater3after.jpg': ex3after
+		'colortheater3after.jpg': ex3after,
+		'color-theater-photoshop-demo.png': photoshopDemo,
 	};
 </script>
 

@@ -3,6 +3,7 @@
 	import superbloomDemo from '$lib/assets/images/superbloom-photoshop-demo.png';
 	import pf2Demo from '$lib/assets/images/progenflares2-photoshop-demo.jpg';
 	import zeusDemo from '$lib/assets/images/zeus-photoshop-demo.png';
+	import colorTheaterDemo from '$lib/assets/images/color-theater-photoshop-demo.png';
 </script>
 
 <SocialMetadata title="Photoshop Plugins" description="Free Photoshop plugins by Lunal Graphics." />
@@ -62,6 +63,23 @@
 					hover:bg-surface-light transition-colors"
 			>
 				Install Zeus
+			</a>
+		</section>
+
+		<!-- Color Theater -->
+		<section class="space-y-4">
+			<h2 class="text-2xl font-heading text-white">Color Theater for Photoshop</h2>
+			<img src={colorTheaterDemo} alt="Color Theater running in Photoshop" class="w-full rounded-lg" />
+			<p class="text-text">
+				Create beautiful color grades in Photoshop.
+			</p>
+			<a
+				href="/about-colortheater/photoshop"
+				class="inline-block px-5 py-2.5 font-heading text-sm text-text-bright
+					border-2 border-text-bright rounded bg-surface
+					hover:bg-surface-light transition-colors"
+			>
+				Install Color Theater
 			</a>
 		</section>
 	</div>

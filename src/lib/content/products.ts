@@ -146,7 +146,7 @@ export const products: Product[] = [
 		webLauncherHash: 'colortheater',
 		downloadUrl: '/ghdownloads/colortheater',
 		downloadExternal: false,
-		hasPhotoshopPage: false,
+		hasPhotoshopPage: true,
 		sections: [
 			{
 				title: 'What is Color Theater?',
@@ -185,7 +185,13 @@ export const products: Product[] = [
 			{
 				title: 'Use Color Theater Directly in Photopea',
 				description: 'Color Theater is available as a Photopea plugin. Learn how to install it <a href="/blog/2">here</a>.'
-			}
+			},
+			{
+				title: 'Color Theater for Photoshop',
+				description: 'Color Theater is now available as a Photoshop plugin!',
+				image: '/images/color-theater-photoshop-demo.png',
+				imageAlt: 'Color Theater for Photoshop',
+			},
 		]
 	},
 	{
