@@ -33,7 +33,7 @@
 
 <SocialMetadata
 	title="Lunal Graphics"
-	description="Free digital art tools for Photoshop and Photopea."
+	description="Free, open-source digital art powertools."
 />
 
 <!-- Hero Section -->
@@ -50,7 +50,7 @@
 	<div class="text-center space-y-6 px-4 z-10 relative">
 		<h1 class="text-5xl md:text-7xl font-heading text-white">LUNAL GRAPHICS</h1>
 		<p class="text-xl md:text-2xl text-text">
-			Helping digital artists create without barriers.
+			Free, open-source digital art powertools.
 		</p>
 		<div class="flex flex-wrap gap-4 justify-center mt-8">
 			<a href="#our-products" class="inline-block px-6 py-3 font-heading text-sm text-text-bright border-2 border-text-bright rounded bg-surface hover:bg-surface-light transition-colors select-none">
@@ -114,7 +114,6 @@
 	<h2 class="text-2xl font-heading text-white mb-4">Thanks to our supporters on Patreon!</h2>
 	<ul class="list-disc list-inside text-text space-y-1 mb-4">
 		<li>Lavender</li>
-		<li>Валентин Глухота</li>
 		<li>Daniel Silverman</li>
 	</ul>
 	<p class="text-text">
